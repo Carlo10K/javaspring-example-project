@@ -33,5 +33,6 @@ out/
 /nbdist/
 /.nb-gradle/
 
+postgres_data
 ### VS Code ###
 .vscode/
