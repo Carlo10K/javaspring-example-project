@@ -1,15 +1,12 @@
 package com.example.market.persistence.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
 @Table(name = "clientes")
 public class Cliente {
-
+    @Id
     private String id;
 
     private String nombre;
