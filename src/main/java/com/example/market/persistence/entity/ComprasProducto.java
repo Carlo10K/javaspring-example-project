@@ -11,7 +11,7 @@ public class ComprasProducto {
 
     private Integer cantidad;
 
-    private Double tota;
+    private Double total;
 
     private Boolean estado;
 
@@ -56,12 +56,12 @@ public class ComprasProducto {
         this.cantidad = cantidad;
     }
 
-    public Double getTota() {
-        return tota;
+    public Double getTotal() {
+        return total;
     }
 
-    public void setTota(Double tota) {
-        this.tota = tota;
+    public void setTotal(Double total) {
+        this.total = total;
     }
 
     public Boolean getEstado() {
